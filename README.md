@@ -75,7 +75,7 @@ API Testing using Insomnia
 4. Configure the request
 
     GET requests: 
-        -Simply send the request to see the response
+        Simply send the request to see the response
 
         Example: Testing a GET Request
         1. Create a GET request
@@ -85,7 +85,7 @@ API Testing using Insomnia
         5. Check if response returns expected data
 
     POST requests: 
-        -Provide a request body to select appropriate format (JSON)
+        Provide a request body to select appropriate format (JSON)
 
         Example: Testing a POST Request
         1. Create a POST request
@@ -104,14 +104,14 @@ API Testing using Insomnia
         6. Check if response returns expected data
 
     PUT requests: 
-    -Provide a request body to select appropriate format (JSON)
+        Provide a request body to select appropriate format (JSON)
 
-    Example: Testing a PUT Request
-    1. Create a PUT request
-    2. Click the "+" icon, name the request (e.g., "Update User"), and select PUT
-    3. Enter the URL: http://localhost:3000/api/users/:id (replace :id with the actual user ID)
-    4. Set the Request Body:
-         -Click on the "Body" tab
+        Example: Testing a PUT Request
+         1. Create a PUT request
+         2. Click the "+" icon, name the request (e.g., "Update User"), and select PUT
+         3. Enter the URL: http://localhost:3000/api/users/:id (replace :id with the actual user ID)
+         4. Set the Request Body:
+            -Click on the "Body" tab
             -Select "JSON" from the dropdown
             -Enter the JSON data for updating user
             Example: 
@@ -124,14 +124,14 @@ API Testing using Insomnia
 
 
     DELETE requests: 
-    -Provide a request body to select appropriate format (JSON)
+        Provide a request body to select appropriate format (JSON)
 
-    Example: Testing a DELETE Request
-    1. Create a DELETE request
-    2. Click the "+" icon, name the request (e.g., "Delete User"), and select DELETE
-    3. Enter the URL: http://localhost:3000/api/users/:id (replace :id with the actual user ID)
-    4. Send the request: Click the "Send" button
-    5. Verify the response indicates the user was deleted successfully 
+        Example: Testing a DELETE Request
+        1. Create a DELETE request
+        2. Click the "+" icon, name the request (e.g., "Delete User"), and select DELETE
+        3. Enter the URL: http://localhost:3000/api/users/:id (replace :id with the actual user ID)
+        4. Send the request: Click the "Send" button
+        5. Verify the response indicates the user was deleted successfully 
 
 API Organization: Filing Requests in Folders
 
